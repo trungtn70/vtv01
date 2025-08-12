@@ -691,6 +691,7 @@ a {
   width: 28px;
   height: 28px;
   transition: 0.5s;
+  background: F9F9F9;
 }
 
 .footer .social-link:hover {
@@ -698,6 +699,10 @@ a {
   border: 1px solid #0689ff;
   transition: 0.5s;
   border-radius: 8px;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .row-bottom {
